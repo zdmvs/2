@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Root UI';
+}
+@font-face {
+    font-family: PT Root UI;
+    src: url(fonts/PT\ root/PT-Root-UI_Regular.ttf);
+}
+@font-face {
+    font-family: 'PT Root UI bold';
+    src: url(fonts/PT\ root/PT-Root-UI_Bold.ttf);
+}
+header{
+    width: 1920px;
+    height: 696px;
+}
+header .verh{
+    display: flex;
+    margin-top: 32px;
+    margin-left: 260px;
+    margin-right: 213px;
+}
+.verh .img{
+    width: 24px;
+    height: 24px;
+}
+div .time{
+    margin-left: 106px;
+    width: 121px;
+    height: 100px;
+}
+.timeul{
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.timeul span{
+    font-weight: 600;
+}
+.address{
+    margin-left: 70px;
+}
+.address ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.add span{
+    font-weight: 600;
+}
+.num p{
+    font-size: 24px;
+}
+.num img{
+    width: 24px;
+    height: 24px;
+}
+.of{
+    text-align: center;
+    padding-left: 6px;
+}
+.cont{
+    margin-left: 70px;
+}
+.cont .ofisiotd{
+    display: flex;
+}
+.cont .emailofis{
+    display: flex;
+}
+.cont .ofisiotd p{
+    margin-left: 13px;
+}
+.cont .emailofis p{
+    margin-left: 13px;
+}
+.btns{
+    display: flex;
+    margin-top:9px;
+}
+.navbar .search {
+    display: flex;
+    margin-left: 196px;
+    font-size: 20px;
+    border-bottom:  1px solid #FFFFFF;
+    height: 30px;
+    margin-top: 18px 
+}
+.navbar .search input {
+    background: none;
+    border: 0;
+    padding: 7px;
+    color: white;
+    font-size: 18px;
+}
+.navbar .search input:focus {  
+    outline: 0;
+    /* border-bottom:  1px solid #F19F00; */
+}
+.navbar .search {
+    color: white;
+}
+.navbar .search img {
+    width: 16px;
+    height: 16px;    
+}
+
+.btns .call{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 16px;
+    gap: 8px;
+    background: #F19F00;
+    border-radius: 4px;
+    margin-right:8px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    outline: 0;
+    border: 0;
+}
+.ofisiotd .of{
+    position: absolute;
+    width: 166px;
+    height: 23px;
+    left: 1470px;
+    top: 35px;
+
+    /* Плашка */
+    background: #F5F5F5;
+    border-radius: 4px;
+
+
+    /* офис и отдел продаж */
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+
+    /* identical to box height, or 16px */
+    display: flex;
+    align-items: center;
+
+    color: #616161;
+}
+.navbar{
+    width: 1920px;
+    height: 64px;
+    /* margin-top:25px;  */
+    display:  flex;
+    /* margin-left: 260px; */
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    background: rgba(0, 0, 0, 0.5);
+    /* backdrop-filter: blur(40px); */
+}
+.navbar .nav{
+    display: flex;
+    list-style: none;
+    gap: 72px;
+    color: white;
+    margin-left: 264px;
+     
+}
+.navbar .nav li:first-child::before { 
+    content: url("img/icons/Grid View.png");
+    width: 24px;
+    height: 24px; 
+    margin-right: 8px;
+
+ }
+ .navbar .nav li {
+    display: flex;
+    align-items: center;
+ }
+ .start {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(40px);
+ }
+ .search img{
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+ }
+ .search{
+    align-items: center;
+    color: rgb(170, 170, 170);
+    border-bottom: solid 1px white;
+ }
+ .landing{
+    background-image: url(img/image\ 73.png);
+    width: 1920px;
+    height: 530px;
+    /* margin-left: 176px; */
+    /* margin-top: -64px; */
+ }
+.zkz{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 4px;
+    background: #F19F00;
+    border-radius: 4px;
+    font-family: 'PT Root UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    margin-top: 52px;
+}
+.zkz{
+    outline: 0;
+    border: 0;
+}
+.sear {
+    border:1px solid #111;
+    transition: .3s background-color;
+    color: #616161;
+}
+.sear:hover {
+    background: #616161;
+}
+ h1{
+    font-family: PT Root UI bold;
+    font-size: 40px;
+    font-weight: 500;
+ }
+ .txtlnd{
+    margin-left: 272px;
+    position: absolute;
+    margin-top: 135px;
+    color: white;
+ }
+ .txtlnd p{
+    font-size: 24px;
+    margin-top: 18px;
+ }
+ .verhnav .verh{
+    margin-bottom: 24px;
+ }
+ .id .pages{
+    display: flex;
+    list-style: none;
+    margin-top: 60px;
+ }
+.id .ul .li{
+    width: 19px;
+    height: 5px;
+    background-color: #ffffff;
+}
+
+.assortim{
+    display: grid;
+    grid-gap: 16px;
+    grid-template-areas: 
+    "one two two three"
+    "one two two six"
+    "four four five six";
+    grid-template-columns: repeat(4, 1fr);
+    height: 631px;
+    margin-left: 264px;
+    margin-right: 264px;
+    margin-bottom: 16px;
+    margin-top: 40px;
+    width: 1392px;
+}
+.assortim article{
+    background-color: #F5F5F5; 
+}
+.kar1{
+    background: url(img/Mask\ Group-2.png);
+    height: 264px;
+    width: 312px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top:23px
+}
+.kar2{
+    background: url(img/Mask\ Group.png);
+    width: 688px;
+    height: 326px;  
+    margin-right: 0;
+    margin-left: auto;  
+    margin-top: 0px;
+}
+.kar3{
+    background: url(img/Mask\ Group-1.png);
+    height: 264px;
+    width: 312px; 
+    margin-right: 0;
+    margin-left: auto;   
+}
+.kar4{
+    background: url(img/Mask\ Group-5.png);   
+    width: 504px;
+    height: 200px;
+    margin-left: 184px;
+}
+.kar5{
+    background: url(img/Mask\ Group-4.png);
+    width: 264px;
+    height: 200px;
+    margin-right: 0;
+    margin-left: auto;     
+}
+.kar6{
+    background: url(img/Mask\ Group-3.png);    
+    width: 312px;
+height: 252px;
+margin-right: 0;
+margin-left: auto; 
+}
+article.k1{
+    grid-area: one;
+    
+}
+article.k2{
+    grid-area: two;
+    
+}
+article.k3{
+    grid-area: three;
+    
+}
+article.k4{
+    grid-area: four;
+
+}
+article.k5{
+    grid-area: five;
+
+}
+article.k6{
+    grid-area: six;
+
+}
+.prod button{
+    width: 1392px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-left: 264px;
+    border: none;
+    color: white;
+    background-color: #F19F00;
+    font-family: 'PT Root UI bold';
+    font-weight:lighter;
+}
+h2 .prod{
+    height: 39px;
+    width: 39px;
+    padding-right: 16px;
+}
+h2{
+    margin-left: 264px;
+    font-family: 'PT Root UI bold';
+    font-weight: 200;
+    font-size: 48px;
+    margin-bottom: -10px;
+}
+.prod{
+    margin-top:40px;
+}
+h3{
+    font-size: 30px;
+    margin-top: 0px;
+}
+.assortim article p{
+    font-size: 30px;
+}
